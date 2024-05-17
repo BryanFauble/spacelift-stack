@@ -31,6 +31,13 @@ resource "aws_iam_role" "this" {
           AWS = "arn:aws:iam::324880187172:root"
         }
       },
+      {
+        "Effect" : "Allow",
+        "Principal" : {
+          "AWS" : "arn:aws:iam::766808016710:root"
+        },
+        "Action" : "sts:AssumeRole"
+      }
     ]
   })
   tags = var.tags

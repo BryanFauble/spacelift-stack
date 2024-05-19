@@ -36,24 +36,3 @@ provider "registry.terraform.io/spacelift-io/spacelift" {
     "zh:ce223c9fd4494f9269cba9d1430e816299f1d6422e6029b76f8849d625668ebd",
   ]
 }
-
-provider "registry.terraform.io/spotinst/spotinst" {
-  version     = "1.171.1"
-  constraints = "1.171.1"
-  hashes = [
-    "h1:1g2jooS/5d16WhP0u4fN24Y9bjHIUfZ/qYfs47ekH6w=",
-    "zh:07e24cc07bf07689ba0861fc2acc1dfd66c4a5f640f67fdc66ac2f087161d770",
-    "zh:20e289b4e2a0748a105e7d2ba9a900cd64557a2c00a6676daeceeb1242118ef3",
-    "zh:22b74cb41d1bf9ad6c6c62beb9730717fd9569d10e6f4622b5ae2e586669ac3f",
-    "zh:5ec5af70edbd86cd748a3327898638d925c909f59d849e62704913702d6d9eff",
-    "zh:a4caa9e1f37ca4e408b66f313e3a90bfd774814cf5e1a5a9192367df43f7f717",
-    "zh:a970a5a45143d7f9bf888e094961125cf4c67ed578ddbd943648ef85b7f34100",
-    "zh:c6a1fba65271775b2e6d76f64930a89d7b3ddd8fa14c6a3e7d38827cf5670b5a",
-    "zh:cd5606d2ab9e5e201c032db178527bfbaf1313af47ae7b6968fbd3c3aeee20ab",
-    "zh:d54707af7d5b49aaaa8f2fc898a576d543d6153418fc4ef5d6806c1b44b59118",
-    "zh:e1d98704b66d4a83c1725a9357b8fbf1ff108658c92ce5549fe2db35d4769521",
-    "zh:e8d07808c3e05206e647c98f685637c9f53025f197bc08099122d0a1c4553abb",
-    "zh:ee96807b7af9812f596ebcf27503b7091f14cc075d62793eac1c658f0a57eb62",
-    "zh:ff932d95a8942594336bfcadb536ffb62e70ea8a1de0176d7d9b4a00c6a8eb8d",
-  ]
-}
